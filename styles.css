@@ -1,0 +1,25 @@
+/* this is a damn stylesheet */
+
+body {
+    margin: 40px;
+    text-align: center;
+    background-color: rgba(136, 108, 5, 0.691);
+}
+
+h1 {
+    font-size: 50;
+    text-align: center;
+}
+
+.box {
+    align-content: center;
+    background-color:rgba(223, 246, 251, 0.926);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: auto;
+    padding: 20px;
+    border: 1px;
+    width: 400px;
+    border-radius: 7%;
+    
+}
