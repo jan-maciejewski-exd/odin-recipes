@@ -1,25 +1,37 @@
 /* this is a damn stylesheet */
 
 body {
-    margin: 40px;
+    margin: 0;
     text-align: center;
-    background-color: rgba(136, 108, 5, 0.691);
+    background-color: rgb(57, 51, 43);
+}
+
+.flexbox {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-evenly;
 }
 
 h1 {
     font-size: 50;
+    font-family:Helvetica, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
     text-align: center;
+    background-color: rgb(80, 70, 0);
+    color: rgb(235, 245, 255);
+    padding: 8px;
+    flex: 1;
+    margin-top: 0px;
+    ;
 }
 
-.box {
+.recipeitem {
     align-content: center;
-    background-color:rgba(223, 246, 251, 0.926);
+    background-color:rgba(255, 255, 255, 0.85);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    margin: auto;
-    padding: 20px;
-    border: 1px;
-    width: 400px;
     border-radius: 7%;
+    padding: 20px;
+    width: 150px;
     
 }
